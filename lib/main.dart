@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: const LoginOrRegister(),
-      theme: lightMode,
+      theme: darkMode,
     );
   }
 }

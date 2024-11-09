@@ -8,7 +8,7 @@ import 'package:google_fonts/google_fonts.dart';
 class LoginPage extends StatefulWidget {
   final void Function()? onPressed;
 
-  const LoginPage({super.key, required this.onPressed});
+  const LoginPage({super.key, this.onPressed});
 
   @override
   State<LoginPage> createState() => _LoginPageState();
